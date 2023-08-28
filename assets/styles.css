@@ -1,0 +1,163 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+
+.containerIzq {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerDer {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.contactos {
+    height: 90vh;
+}
+
+
+
+.barra_perfil img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.barra_perfil_info {
+    padding: 0px 10px;
+    
+}
+
+.barra {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.barra_perfil {
+    display: flex;
+    width: 80%;
+}
+
+.barra_icono {
+    display: flex;
+    width: 20%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.barra_icono i {
+    padding: 2px;
+}
+
+.contactoCard {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    justify-content: flex-start;
+    padding: 10px;
+    
+}
+
+.contactoCard img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.contactoCard_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+
+button {
+    border: none;
+    background-color: rgb(222, 191, 252);
+    width: 160px;
+    height:40px;
+    color: white;
+    
+}
+
+.boton {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    align-items: center;
+    justify-content: center;
+    padding: 25%;
+    
+}
+
+.resatl {
+    font-weight: bold;
+    
+}
+
+
+.containerDer img {
+
+    width: 200px;
+    height: auto;
+    background-color:rgb(222, 191, 252) ;
+    border-radius: 3%;
+       
+}
+
+.cont {
+text-align: center;
+}
+
+.negrita {
+font-weight: bolder;
+}
+
+h4 {
+font-weight: bold;
+font-size: large;
+
+}
+
+h6 {
+
+    color: rgb(92, 91, 91);
+
+
+}
